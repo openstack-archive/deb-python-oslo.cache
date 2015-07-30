@@ -1,0 +1,5 @@
+python-oslo.cache (0.4.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #794062)
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 30 Jul 2015 10:12:06 +0200
