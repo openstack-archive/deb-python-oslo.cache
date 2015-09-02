@@ -1,6 +1,12 @@
 python-oslo.cache (0.4.0-2) UNRELEASED; urgency=medium
 
+  [ Corey Bryant ]
   * d/control: Align (build-)depends with upstream.
+
+  [ James Page ]
+  * d/rules: Use VERSION as provided by openstack-pkg-tools to configure
+    OSLO_PACKAGE_VERSION, avoiding backport incompatible use of -S flag
+    with dpkg-parsechangelog.
 
  -- Corey Bryant <corey.bryant@canonical.com>  Fri, 21 Aug 2015 09:09:37 -0400
 
