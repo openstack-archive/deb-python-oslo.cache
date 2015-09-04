@@ -42,9 +42,10 @@ from dogpile.cache import util
 from oslo_log import log
 from oslo_utils import importutils
 
-from oslo_cache import exception
-from oslo_cache._i18n import _, _LE
+from oslo_cache._i18n import _
+from oslo_cache._i18n import _LE
 from oslo_cache import _opts
+from oslo_cache import exception
 
 
 __all__ = [
@@ -61,7 +62,6 @@ NO_VALUE = api.NO_VALUE
 _LOG = log.getLogger(__name__)
 
 _BACKENDS = [
-    ('oslo_cache.noop', 'oslo_cache.backends.noop', 'NoopCacheBackend'),
     ('oslo_cache.mongo', 'oslo_cache.backends.mongo', 'MongoCacheBackend'),
     ('oslo_cache.memcache_pool', 'oslo_cache.backends.memcache_pool',
      'PooledMemcachedBackend'),
@@ -368,7 +368,6 @@ def configure(conf):
 
     The following backends are registered in :mod:`dogpile.cache`:
 
-    * ``oslo_cache.noop`` - :class:`oslo_cache.backends.noop.NoopCacheBackend`
     * ``oslo_cache.mongo`` -
       :class:`oslo_cache.backends.mongo.MongoCacheBackend`
     * ``oslo_cache.memcache_pool`` -
