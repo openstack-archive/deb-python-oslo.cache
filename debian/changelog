@@ -6,6 +6,7 @@ python-oslo.cache (1.3.0-1) UNRELEASED; urgency=medium
 
   [ Ondřej Nový ]
   * Fixed homepage (https).
+  * Fixed VCS URLs (https).
 
  -- David Della Vecchia <ddv@canonical.com>  Wed, 24 Feb 2016 10:49:42 -0500
 
