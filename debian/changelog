@@ -1,7 +1,11 @@
 python-oslo.cache (1.3.0-1) UNRELEASED; urgency=medium
 
+  [ David Della Vecchia ]
   * New upstream release. 
   * d/control: Align depends with upstream.
+
+  [ Ondřej Nový ]
+  * Fixed homepage (https).
 
  -- David Della Vecchia <ddv@canonical.com>  Wed, 24 Feb 2016 10:49:42 -0500
 
