@@ -8,6 +8,7 @@ python-oslo.cache (1.4.0-1) experimental; urgency=medium
   * New upstream release. 
   * d/control: Align depends with upstream.
   * Fixed debian/copyright ordering.
+  * Standards-Version: 3.9.7.
 
  -- Thomas Goirand <zigo@debian.org>  Wed, 02 Mar 2016 10:06:53 +0000
 
