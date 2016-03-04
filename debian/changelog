@@ -1,3 +1,9 @@
+python-oslo.cache (1.4.0-2) experimental; urgency=medium
+
+  * Bumped dogpile.cache required version to 0.5.7.
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 04 Mar 2016 01:51:42 +0000
+
 python-oslo.cache (1.4.0-1) experimental; urgency=medium
 
   [ Ondřej Nový ]
