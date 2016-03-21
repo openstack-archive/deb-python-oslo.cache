@@ -1,3 +1,9 @@
+python-oslo.cache (1.5.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 21 Mar 2016 10:50:33 +0100
+
 python-oslo.cache (1.4.0-2) experimental; urgency=medium
 
   * Bumped dogpile.cache required version to 0.5.7.
