@@ -1,3 +1,9 @@
+python-oslo.cache (1.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 02 Apr 2016 14:13:13 +0200
+
 python-oslo.cache (1.5.0-1) experimental; urgency=medium
 
   * New upstream release.
