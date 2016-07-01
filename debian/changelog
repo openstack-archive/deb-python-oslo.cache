@@ -1,7 +1,11 @@
 python-oslo.cache (1.10.0-1) experimental; urgency=medium
 
+  [ David Della Vecchia ]
   * New upstream release.
   * d/control: Align (build-)depends with upstream.
+
+  [ Thomas Goirand ]
+  * Using pkgos-dh_auto_{test,install} from newer openstack-pkg-tools.
 
  -- Thomas Goirand <zigo@debian.org>  Fri, 01 Jul 2016 08:56:58 +0000
 
