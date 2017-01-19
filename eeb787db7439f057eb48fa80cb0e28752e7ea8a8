@@ -1,0 +1,10 @@
+Code-Review+2: ChangBo Guo(gcb) <glongwave@gmail.com>
+Code-Review+1: Boris Bobrov <bbobrov@mirantis.com>
+Code-Review+2: Doug Hellmann <doug@doughellmann.com>
+Workflow+1: Doug Hellmann <doug@doughellmann.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 17 Jan 2017 15:43:10 +0000
+Reviewed-on: https://review.openstack.org/418002
+Project: openstack/deb-python-oslo.cache
+Branch: refs/heads/master
