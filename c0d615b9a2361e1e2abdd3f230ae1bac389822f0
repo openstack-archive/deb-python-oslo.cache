@@ -1,0 +1,9 @@
+Code-Review+1: Dong Ma <winterma.dong@gmail.com>
+Code-Review+2: Doug Hellmann <doug@doughellmann.com>
+Workflow+1: Doug Hellmann <doug@doughellmann.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 11 Jul 2017 18:48:51 +0000
+Reviewed-on: https://review.openstack.org/482502
+Project: openstack/deb-python-oslo.cache
+Branch: refs/heads/master
